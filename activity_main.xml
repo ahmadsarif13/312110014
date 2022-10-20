@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E10D4D80"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/pindai_qr_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNama0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewNama1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textViewKelas0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kelas0"
+            android:textColor="#BBDEFB" />
+
+        <TextView
+            android:id="@+id/textViewKelas1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kelas1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textViewNIM0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim0"
+            android:textColor="#BBDEFB" />
+
+        <TextView
+            android:id="@+id/textViewNIM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BF2C8772"
+            android:contentDescription="@string/todo"
+            android:visibility="visible"
+            app:srcCompat="@drawable/engineer"
+            tools:ignore="ImageContrastCheck" />
+    </LinearLayout>
+
+</RelativeLayout>
